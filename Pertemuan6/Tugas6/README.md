@@ -36,7 +36,7 @@ Selain menambahkan field nomor telepon pada formulir, saya juga menambahkannya p
 
 Pada program ini saya menambahkan styling dan beberapa tombol untuk memudahkan pengguna mengakses fitur yang tersedia. Dengan adanya modifikasi ini, tampilan program menjadi lebih menarik dan mudah dipahami.
 
-![Menambahkan Styling Tampilan]\(screenshot/modif4.png)
+![Menambahkan Styling Tampilan](screenshot/modif4.png)
 
 ---
 
