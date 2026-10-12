@@ -83,7 +83,7 @@ Kode ini penting karena digunakan untuk menghasilkan tampilan yang styling pada 
 
 Pada saat menjalankan data.php, sempat muncul peringatan Undefined variable $koneksi dan Fatal error pada fungsi mysqli_query(). Error tersebut terjadi karena variabel $koneksi belum terdefinisi sehingga program tidak dapat menggunakan koneksi database untuk menjalankan query SELECT * FROM mahasiswa.
 
-![Error yang Sempat Muncul](screenshot/eror.png)
+![Error yang Sempat Muncul](screenshot/error.png)
 
 **Perbaikan:**
 
