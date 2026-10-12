@@ -1,14 +1,26 @@
 <?php
 include "koneksi.php";
 
-$nim = $_GET['nim'];
+        if (!isset($_GET['nim'])) {
+            die("Silakan kembali ke halaman utama dan pilih data yang ingin diedit.");
+        }
 
-$query = mysqli_query(
-        $koneksi,
-        "SELECT * FROM mahasiswa WHERE nim = '$nim'"
-    );
+        $nim = $_GET['nim'];
 
-$data = mysqli_fetch_assoc($query);
+        $stmt = mysqli_prepare(
+            $koneksi,
+            "SELECT * FROM mahasiswa WHERE nim = ?"
+        );
+
+        mysqli_stmt_bind_param($stmt, "s", $nim);
+        mysqli_stmt_execute($stmt);
+
+        $query = mysqli_stmt_get_result($stmt);
+        $data = mysqli_fetch_assoc($query);
+
+if (!$data) {
+    die("Data mahasiswa tidak ditemukan.");
+}
 ?>
 
 <!DOCTYPE html>
