@@ -47,7 +47,6 @@ Pada program ini saya menambahkan styling dan beberapa tombol untuk memudahkan p
 Kode ini penting karena digunakan untuk menghubungkan program PHP dengan database MySQL melalui file koneksi.php. Dengan adanya koneksi ini, program dapat menjalankan query dan mengakses data mahasiswa.
 
 ![Koneksi PHP](screenshot/penting1.png)
-![Koneksi PHP](screenshot/koneksi.png)
 
 ---
 
