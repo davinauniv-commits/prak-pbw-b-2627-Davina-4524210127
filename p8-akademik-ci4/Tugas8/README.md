@@ -117,48 +117,48 @@ Apabila data tidak memenuhi ketentuan, sistem akan menampilkan pesan kesalahan d
 
 Halaman ini menampilkan seluruh data mahasiswa yang tersimpan di dalam database. Pada halaman ini tersedia fitur untuk menambahkan, mengubah, dan menghapus data.
 
-![Halaman Daftar Mahasiswa](screenshots/halaman-data.png)
+![Halaman Daftar Mahasiswa](screenshot/halaman-data.png)
 
 ### 4.2 Halaman Tambah Mahasiswa
 
 Halaman tambah mahasiswa digunakan untuk memasukkan data mahasiswa baru melalui formulir yang telah disediakan.
 
-![Halaman Tambah Mahasiswa](screenshots/tambah-mahasiswa.png)
+![Halaman Tambah Mahasiswa](screenshot/tambah-mahasiswa.png)
 
 ### 4.3 Hasil Penambahan Data
 
 Setelah formulir diisi dengan benar, data mahasiswa berhasil disimpan dan ditampilkan pada halaman daftar mahasiswa.
 
-![Hasil Penambahan Data](screenshots/tambah-berhasil.png)
+![Hasil Penambahan Data](screenshot/tambah-berhasil.png)
 
 ### 4.4 Halaman Edit Mahasiswa
 
 Halaman edit digunakan untuk mengubah informasi mahasiswa yang sudah tersimpan di database.
 
-![Halaman Edit Mahasiswa](screenshots/edit-mahasiswa.png)
+![Halaman Edit Mahasiswa](screenshot/edit-mahasiswa.png)
 
 ### 4.5 Hasil Perubahan Data
 
 Setelah perubahan disimpan, sistem akan memperbarui informasi mahasiswa sesuai dengan data yang dimasukkan.
 
-![Hasil Perubahan Data](screenshots/update-berhasil.png)
+![Hasil Perubahan Data](screenshot/update-berhasil.png)
 
 ### 4.6 Proses Penghapusan Data
 
 Sebelum data dihapus, sistem menampilkan konfirmasi untuk memastikan bahwa pengguna benar-benar ingin menghapus data mahasiswa tersebut.
 
-![Proses Penghapusan Data](screenshots/hapus-mahasiswa.png)
+![Proses Penghapusan Data](screenshot/hapus-mahasiswa.png)
 
-![Proses Penghapusan Data Berhasil](screenshots/hapus-berhasil.png)
+![Proses Penghapusan Data Berhasil](screenshot/hapus-berhasil.png)
 
 ### 4.7 Validasi Data
 
 Validasi digunakan untuk memeriksa data yang dimasukkan pengguna. Apabila terdapat data yang tidak sesuai ketentuan, sistem akan menampilkan pesan kesalahan.
 
-![Validasi Data](screenshots/validasi-data.png)
+![Validasi Data](screenshot/validasi-data.png)
 
 Tampilan apabila pengguna belum mengisi kolom formulir
 
-![Validasi Data](screenshots/validasi-data1.png)
+![Validasi Data](screenshot/validasi-data1.png)
 
 Tampilan apabila ternyata data sudah digunakan
