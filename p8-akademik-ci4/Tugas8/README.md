@@ -157,8 +157,8 @@ Validasi digunakan untuk memeriksa data yang dimasukkan pengguna. Apabila terdap
 
 ![Validasi Data](screenshot/validasi-data.png)
 
-Tampilan apabila pengguna belum mengisi kolom formulir
+Tampilan apabila pengguna belum mengisi kolom formulir.
 
 ![Validasi Data 2](screenshot/validasi-data2.png)
 
-Tampilan apabila ternyata data sudah digunakan
+Tampilan apabila data ternyata sudah digunakan.
